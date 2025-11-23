@@ -9,11 +9,10 @@ export const useCountries = () => {
 };
 
 export const useStates = (country: string | undefined) => {
-    console.log("country",country)
   return useQuery({
     queryKey: ["states", country],
     queryFn: () => getStates(country!),
-    enabled: !!country, // only fetch when country selected
+    enabled: !!country, 
   });
 };
 
@@ -21,6 +20,6 @@ export const useCities = (country: string | undefined, state: string | undefined
   return useQuery({
     queryKey: ["cities", country, state],
     queryFn: () => getCities(country!, state!),
-    enabled: !!country && !!state, // only fetch when both selected
+    enabled: !!country && !!state, 
   });
 };
