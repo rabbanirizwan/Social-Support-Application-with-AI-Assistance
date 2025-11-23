@@ -1,0 +1,114 @@
+{
+  "SWITCH_LANGUAGE": "Switch Language",
+  "APPTITLE": "Content Creation Assistant",
+  "STEPDESCRIPTION": "Fill all 3 steps and get AI help to write your content",
+
+  "STEPS": {
+    "PERSONAL": "Personal Information",
+    "FINANCIAL": "Family Financial Info",
+    "SITUATION_DESCRIPTION": "Situation Descriptions "
+  },
+
+  "FIELDS": {
+    "NAME": "Full Name",
+    "NATIONAL_ID": "National ID",
+    "DOB": "Date of Birth",
+    "GENDER": "Gender",
+    "ADDRESS": "Address",
+    "PHONE": "Phone Number",
+    "EMAIL": "Email",
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "STATE":"State",
+    "COUNTRY":"Country",
+    "CITY":"CITY",
+     "MARITAL_STATUS": "Marital Status",
+    "DEPENDENTS": "Number of Dependents",
+    "EMPLOYMENT_STATUS": "Employment Status",
+    "MONTHLY_INCOME": "Monthly Income",
+    "HOUSING_STATUS": "Housing Status",
+    "FINANCIAL":"Current Financial Situation",
+    "EMPLOYMENT":"Employment Circumstances",
+    "REASON":"Reason for Applying"
+
+  },
+
+  "PLACEHOLDERS": {
+    "NAME": "Enter your name",
+    "NATIONAL_ID": "Enter your National ID",
+    "DOB": "Select your date of birth",
+    "ADDRESS": "Enter your address",
+    "PHONE": "Enter phone number",
+    "EMAIL": "Enter your email",
+    "SELECT_COUNTRY": "Select country",
+    "SELECT_STATE": "Select state / province",
+    "SELECT_CITY": "Select city",
+    "SELECT_MARITAL_STATUS": "Select marital status",
+    "ENTER_DEPENDENTS": "Enter number of dependents",
+    "SELECT_EMPLOYMENT_STATUS": "Select employment status",
+    "ENTER_MONTHLY_INCOME": "Enter monthly income",
+    "SELECT_HOUSING_STATUS": "Select housing status"
+  },
+
+  "ERRORS": {
+    "REQUIRED_NAME": "Please enter your name",
+    "REQUIRED_NATIONAL_ID": "Please enter your national ID",
+    "REQUIRED_DOB": "Please enter your date of birth",
+    "REQUIRED_GENDER": "Please enter your gender",
+    "REQUIRED_ADDRESS": "Please enter your address",
+    "REQUIRED_PHONE": "Please enter your phone number",
+    "INVALID_PHONE": "Invalid phone number",
+    "REQUIRED_EMAIL": "Please enter your email",
+    "INVALID_EMAIL": "Invalid email address",
+      "REQUIRED_COUNTRY": "Please select a country",
+    "REQUIRED_STATE": "Please select a state / province",
+    "REQUIRED_CITY": "Please select a city",
+    "REQUIRED_MARITAL_STATUS": "Please select marital status",
+    "REQUIRED_DEPENDENTS": "Please enter number of dependents",
+    "REQUIRED_EMPLOYMENT_STATUS": "Please select employment status",
+    "REQUIRED_MONTHLY_INCOME": "Please enter your monthly income",
+    "REQUIRED_HOUSING_STATUS": "Please select housing status",
+    "MAX_LENGTH_NATIONAL_ID": "National ID cannot exceed 11 characters.",
+    "INVALID_NATIONAL_ID": "National ID must contain only numbers."
+  },
+
+
+  "BUTTONS": {
+    "NEXT": "Next",
+    "BACK": "Back",
+    "SUBMIT": "Submit",
+    "HELPMEWRITE": "Help Me Write",
+    "ACCEPTSUGGESTION": "Accept",
+    "DISCARDSUGGESTION": "Discard"
+  },
+
+  "MESSAGES": {
+    "SUGGESTIONAPPLIED": "Suggestion applied successfully!",
+    "FORMSUBMITTED": "Form submitted successfully!"
+  },
+
+  "GET_AI_SUGGESTION":"Get AI-powered writing suggestions",
+  "HELP_ME":"Help Me Write",
+  "OPTIONS": {
+    "SINGLE": "Single",
+    "MARRIED": "Married",
+    "DIVORCED": "Divorced",
+    "WIDOWED": "Widowed",
+    "EMPLOYED": "Employed",
+    "SELF_EMPLOYED": "Self-Employed",
+    "UNEMPLOYED": "Unemployed",
+    "STUDENT": "Student",
+    "RETIRED": "Retired",
+    "OWNED": "Owned",
+    "RENTED": "Rented",
+    "MORTGAGED": "Mortgaged",
+    "LIVING_WITH_FAMILY": "Living with Family"
+  },
+   "AI_SUGGESTION_TITLE": "AI Writing Suggestion",
+  "AI_SUGGESTION_DISCARD": "Discard",
+  "AI_SUGGESTION_EDIT": "Edit",
+  "AI_SUGGESTION_ACCEPT": "Accept",
+  "AI_SUGGESTION_LOADING": "Generating your content...",
+  "AI_SUGGESTION_ERROR_TITLE": "Error",
+  "AI_SUGGESTION_NO_SUGGESTION": "No suggestion generated. Please try again."
+}
