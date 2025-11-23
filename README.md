@@ -39,3 +39,44 @@ npm install
 
 # Start development server
 npm run dev
+
+Build & Preview
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Lint project
+npm run lint
+```
+
+# 🔑 OpenAI API Key Setup Guide
+
+## 1. Get Your API Key
+
+### Step-by-Step Process:
+1. **Visit OpenAI Platform**
+   - Go to [https://platform.openai.com](https://platform.openai.com)
+
+2. **Sign up or Log in**
+   - Create a new account or sign in to your existing account
+
+3. **Navigate to API Keys Section**
+   - Click on your profile picture in top-right corner
+   - Select "View API Keys" from the dropdown menu
+
+4. **Create New Secret Key**
+   - Click "Create new secret key" button
+   - Give your key a descriptive name (optional but recommended)
+   - Click "Create secret key"
+
+## 2. Environment Setup
+
+### Option 1: Environment Variables
+```bash
+# Add to your .env file
+ VITE_API_KEY=your-secret-key-here
+
+
